@@ -29,7 +29,7 @@ body{
 }
 
 #content-wrapper>section:not(:nth-child(1)){
-padding-top: 2em;
+padding-top: 1em;
 padding-bottom: 2em;
 }
 #content-wrapper>section:nth-child(odd){
@@ -290,6 +290,19 @@ div#testimonies .testimonies-inner .testimony-item.slide-end.slide-prev{
     50%, 100%{
         transform: translateX(0%)
     }
+}
+
+/* Contact Form */
+.btn-contact{
+    padding: 5px;
+    font-weight: 900;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    margin: auto;
+    
 }
 
 
