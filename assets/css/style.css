@@ -168,8 +168,9 @@ padding-bottom: 2em;
 /* Testimonies */
 div#testimonies {
     position: relative;
-    width: 500px;
+    max-width: 400px;
     margin: auto;
+    border: 2px solid red;
 }
 div#testimonies .testimonies-inner{
     position: relative;
@@ -302,7 +303,15 @@ div#testimonies .testimonies-inner .testimony-item.slide-end.slide-prev{
     align-content: center;
     width: 200px;
     margin: auto;
+    margin-top: 10px;
     
+}
+textarea{
+    resize: none;
+    text-align: left;
+}
+.form-label{
+    color: #000;
 }
 
 
